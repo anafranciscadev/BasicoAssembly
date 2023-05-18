@@ -37,7 +37,17 @@ Basicamente a diferença crucial entre a linguagem montada e as linguagens moder
 
 ### Recursos básicos do hardware do Pc
 
-As partes principais do hardware do computador são: processador, memória e registradores, onde os registradores são responsáveis por armazenarendereços e dados.
+#### Processador
+
+
+
+#### Registradores
+
+
+
+#### Memória
+
+
 
 
 
@@ -53,6 +63,12 @@ As partes principais do hardware do computador são: processador, memória e reg
 
 [O que são bits, bytes, megabits, megabytes e afins?](https://www.infowester.com/bit.php)
 
+[Arquitetura dos computadores](http://professores.dcc.ufla.br/~monserrat/icc/Capitulo2.html)
+
 ## Imagens
 
 [Decimal, binário e hexadecimal](https://lh4.googleusercontent.com/xSZO9mpOS7gk6VjUXklM4WIYz7FwyAk0HvwtwSXiGyP__qHQuxthodh32bLpIthg8NoUPggiDceBMdw5ORZ_hHsDhBx_5q2Ld0vaCt9AO3ByUiEsTX6IMN4vxQozXkkVKWCHDpc=s0)
+
+[Relação do processador com a memória](http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/aoc/ub/img/B1.jpg)
+
+
