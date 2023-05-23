@@ -41,11 +41,11 @@ Basicamente a diferença crucial entre a linguagem montada e as linguagens moder
 
 O processador ou CPU é o componente que comanda tudo no computador, desde a ordem de execução de programas até o cálculo dos dados/bits. É composta por:
 
-- **UC (Unidade de Controle)** que é responsável, obviamente,  por controlar e garantir que todos os componentes e dados que circulam no computador executem suas devidas funções;  
+- **1 UC (Unidade de Controle)** que é responsável, obviamente,  por controlar e garantir que todos os componentes e dados que circulam no computador executem suas devidas funções;  
 
-- **ULA (Unidade Lógica Aritmética)** todas as operações lógicas (and, or, not, etc) e aritméticas (subtração, adição, etc) são comandadas poresse compartimento;
+- **2 ULA (Unidade Lógica Aritmética)** todas as operações lógicas (and, or, not, etc) e aritméticas (subtração, adição, etc) são comandadas poresse compartimento;
 
-- **Registradores** fornece dados da memória para o processador, __mais detalhes abaixo__.
+- **3 Registradores** fornece dados da memória para o processador, __mais detalhes abaixo__.
 
 #### Registradores
 
@@ -67,13 +67,13 @@ Nesse tipo de memória  as configurações são de fábrica, logo não podem ser
 
 Dentre as ROMs há vários tipos:
 
-- 1. PROM (Programmable Read Only Memory ou Memória Programável Exclusiva para Leitura) = pode ser programada através de um equipamento específico e gravada uma única vez;
+- **1 PROM (Programmable Read Only Memory ou Memória Programável Exclusiva para Leitura)** = pode ser programada através de um equipamento específico e gravada uma única vez;
 
-- 2. EPROM (Electrically Programmable Read Only Memory ou Memória Exclusiva para Leitura Programável Eletricamente) ou (Eraseble Programmable Read Only Memory ou Memória Exclusiva para Leitura,Programável e Apagável) = pode ser gravada, apagada e regravada, por equipamento espacífico;
+- **2 EPROM (Electrically Programmable Read Only Memory ou Memória Exclusiva para Leitura Programável Eletricamente) ou (Eraseble Programmable Read Only Memory ou Memória Exclusiva para Leitura,Programável e Apagável)** = pode ser gravada, apagada e regravada, por equipamento espacífico;
 
-- 3. EAROM (Electrically Alterable Read Only Memory ou Memória Alterável Eletricamente) = seus dados podem ser alterados; 
+- **3 EAROM (Electrically Alterable Read Only Memory ou Memória Alterável Eletricamente)** = seus dados podem ser alterados; 
 
-- 4. EEROM (Electrical Eraseble Programmable Read Only Memory) = seu conteúdo pode ser apagado através de processos elétricos.
+- **4 EEROM (Electrical Eraseble Programmable Read Only Memory)** = seu conteúdo pode ser apagado através de processos elétricos.
 
 ###### Memória de cache
 
