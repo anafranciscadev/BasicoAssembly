@@ -11,7 +11,7 @@
 
 ### Diferentes níveis de linguagem
 
-Já que a **linguagem de máquina é basicamente composta de 0s e 1s**, e para um humano é praticamente impossível desenvolver alguma coisa dessaforma, é necessário que as haja algum intermediador entre o processador da máquina e nós, e é assim que surgem as linguagens de programação. Agrosso modo, as linguagens de programação seriam um conjunto de instruções e regras que utilizamos para resolver um problema, ou melhor para colocarmos o computador para resolver.
+Já que a **linguagem de máquina é basicamente composta de 0s e 1s**, e para um humano é praticamente impossível desenvolver alguma coisa dessaforma, é necessário que haja algum intermediador entre o processador da máquina e nós, e é assim que surgem as linguagens de programação. A grosso modo, as linguagens de programação seriam um conjunto de instruções e regras que utilizamos para resolver um problema, ou melhor para colocarmos o computador para resolver.
 
 1. Linguagem de máquina
 2. Linguagem hexadecimal
@@ -39,15 +39,51 @@ Basicamente a diferença crucial entre a linguagem montada e as linguagens moder
 
 #### Processador
 
+O processador ou CPU é o componente que comanda tudo no computador, desde a ordem de execução de programas até o cálculo dos dados/bits. É composta por:
 
+- **UC (Unidade de Controle)** que é responsável, obviamente,  por controlar e garantir que todos os componentes e dados que circulam no computador executem suas devidas funções;  
+
+- **ULA (Unidade Lógica Aritmética)** todas as operações lógicas (and, or, not, etc) e aritméticas (subtração, adição, etc) são comandadas poresse compartimento;
+
+- **Registradores** fornece dados da memória para o processador, __mais detalhes abaixo__.
 
 #### Registradores
 
-
+Ou registros, são um tipo de memória que está integrada a CPU em que são armazenadas as intruções referente ao funciocionamento do computador.
+Há vários tipos de registros, cada um com a sua funcionalidade, exemplos: o que aponta a próxima instrução a ser executada, o que armazena dados, enfim.
+Pense no processador como o rei os e vários registradores como os seus conselheiros.
 
 #### Memória
 
+A memória do computador é basicamente um circuito eletrônico com capacidade de armazenar dados.
 
+##### Memória principal
+
+Se trata de uma memória muito veloz para READ e WRITE (leitura e escrita de dados) mas sendo muito rápida ela também é vólatil, ou seja, se o computador for desligado toda a atividade que estava sendo feita será perdida. A memória que é encontrada nos PCs é a RAM (Randon Access Memory) que acessa as informações devidas de forma direta e sem que seja necessário leitura de todas as áreas desse conjunto de dados.
+
+###### Memória de leitura 
+
+Nesse tipo de memória  as configurações são de fábrica, logo não podem ser alteradas, a única coisa que pode ser feita é a leitura/utilização dos dados. ROM (Read Only Memory ou memória somente para leitura) é onde a BIOS (Basic Inpu/Output System) dos computadores está armazenada.
+
+Dentre as ROMs há vários tipos:
+
+- 1. PROM (Programmable Read Only Memory ou Memória Programável Exclusiva para Leitura) = pode ser programada através de um equipamento específico e gravada uma única vez;
+
+- 2. EPROM (Electrically Programmable Read Only Memory ou Memória Exclusiva para Leitura Programável Eletricamente) ou (Eraseble Programmable Read Only Memory ou Memória Exclusiva para Leitura,Programável e Apagável) = pode ser gravada, apagada e regravada, por equipamento espacífico;
+
+- 3. EAROM (Electrically Alterable Read Only Memory ou Memória Alterável Eletricamente) = seus dados podem ser alterados; 
+
+- 4. EEROM (Electrical Eraseble Programmable Read Only Memory) = seu conteúdo pode ser apagado através de processos elétricos.
+
+###### Memória de cache
+
+É uma memória muito mais rápida que a RAM mas que é consideravelmente menor, sua função é armazenar temporariamente dados sem precisar buscar na memória pricipal. 
+
+##### Memória secundária
+
+Esse tipo de memória não tem acesso direto a CPU, mas em compensação tem a capacidade de armazenar grandes quantias de dados e de fazer a transferência segura desses dados. Exemplos comuns são: pendrives, HDs, CDs, disquetes, etc.
+
+#### Sistema binário
 
 
 
@@ -61,9 +97,11 @@ Basicamente a diferença crucial entre a linguagem montada e as linguagens moder
 
 [O que é um mnemônico? - o que é techopedia](https://pt.theastrologypage.com/mnemonic)
 
-[O que são bits, bytes, megabits, megabytes e afins?](https://www.infowester.com/bit.php)
-
 [Arquitetura dos computadores](http://professores.dcc.ufla.br/~monserrat/icc/Capitulo2.html)
+
+[Memória](http://www.inf.ufsc.br/~j.barreto/cca/perifer/memorias.html)
+
+[O que são bits, bytes, megabits, megabytes e afins?](https://www.infowester.com/bit.php)
 
 ## Imagens
 
