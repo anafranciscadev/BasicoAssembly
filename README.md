@@ -4,7 +4,7 @@
 > Esse será um projeto pessoal meu onde, no qual vou me arriscar a quebrar a cabeça com essa linguagem que é um bicho de 7 cabeças. -"Por que fazer isso? essa linguagem é terrível" engenharia reversa é a resposta, quero entender o computador de dentro para fora.
 
 [Assembly Quick Guide](https://www.tutorialspoint.com/assembly_programming/assembly_quick_guide.htm)
-
+> Estou utilizando esse guia da tutorialspoint de base para os estudos.
 
 
 ## Difrença entre assembly e as linguagens atuais
@@ -13,10 +13,10 @@
 
 Já que a **linguagem de máquina é basicamente composta de 0s e 1s**, e para um humano é praticamente impossível desenvolver alguma coisa dessaforma, é necessário que haja algum intermediador entre o processador da máquina e nós, e é assim que surgem as linguagens de programação. A grosso modo, as linguagens de programação seriam um conjunto de instruções e regras que utilizamos para resolver um problema, ou melhor para colocarmos o computador para resolver.
 
-1. Linguagem de máquina
-2. Linguagem hexadecimal
-3. Linguagem assembly
-4. Linguagem C (por exemplo)
+1. Linguagem de máquina;
+2. Linguagem hexadecimal;
+3. Linguagem assembly;
+4. Linguagem C (por exemplo);
 
 Essa linguagem hexadecimal foi possivelmente a primeira tentativa de linguagem de programação, onde se utilizava a notação hexadecimal para representar os programas, mas a programação e leitura desses códigos continuou impraticável.
 
@@ -41,11 +41,11 @@ Basicamente a diferença crucial entre a linguagem montada e as linguagens moder
 
 O processador ou CPU é o componente que comanda tudo no computador, desde a ordem de execução de programas até o cálculo dos dados/bits. É composta por:
 
-- **1 UC (Unidade de Controle)** que é responsável, obviamente,  por controlar e garantir que todos os componentes e dados que circulam no computador executem suas devidas funções;  
+1. **UC (Unidade de Controle)** que é responsável, obviamente,  por controlar e garantir que todos os componentes e dados que circulam no computador executem suas devidas funções;  
 
-- **2 ULA (Unidade Lógica Aritmética)** todas as operações lógicas (and, or, not, etc) e aritméticas (subtração, adição, etc) são comandadas poresse compartimento;
+2. **ULA (Unidade Lógica Aritmética)** todas as operações lógicas (and, or, not, etc) e aritméticas (subtração, adição, etc) são comandadas poresse compartimento;
 
-- **3 Registradores** fornece dados da memória para o processador, __mais detalhes abaixo__.
+3. **Registradores** fornece dados da memória para o processador, __mais detalhes abaixo__.
 
 #### Registradores
 
@@ -67,13 +67,13 @@ Nesse tipo de memória  as configurações são de fábrica, logo não podem ser
 
 Dentre as ROMs há vários tipos:
 
-- **1 PROM (Programmable Read Only Memory ou Memória Programável Exclusiva para Leitura)** = pode ser programada através de um equipamento específico e gravada uma única vez;
+1. **PROM (Programmable Read Only Memory ou Memória Programável Exclusiva para Leitura)**: pode ser programada através de um equipamento específico e gravada uma única vez;
 
-- **2 EPROM (Electrically Programmable Read Only Memory ou Memória Exclusiva para Leitura Programável Eletricamente) ou (Eraseble Programmable Read Only Memory ou Memória Exclusiva para Leitura,Programável e Apagável)** = pode ser gravada, apagada e regravada, por equipamento espacífico;
+2. **EPROM (Electrically Programmable Read Only Memory ou Memória Exclusiva para Leitura Programável Eletricamente) ou (Eraseble Programmable Read Only Memory ou Memória Exclusiva para Leitura,Programável e Apagável)**: pode ser gravada, apagada e regravada, por equipamento espacífico;
 
-- **3 EAROM (Electrically Alterable Read Only Memory ou Memória Alterável Eletricamente)** = seus dados podem ser alterados; 
+3. **EAROM (Electrically Alterable Read Only Memory ou Memória Alterável Eletricamente)**: seus dados podem ser alterados; 
 
-- **4 EEROM (Electrical Eraseble Programmable Read Only Memory)** = seu conteúdo pode ser apagado através de processos elétricos.
+4. **EEROM (Electrical Eraseble Programmable Read Only Memory)**: seu conteúdo pode ser apagado através de processos elétricos.
 
 ###### Memória de cache
 
@@ -84,6 +84,17 @@ Dentre as ROMs há vários tipos:
 Esse tipo de memória não tem acesso direto a CPU, mas em compensação tem a capacidade de armazenar grandes quantias de dados e de fazer a transferência segura desses dados. Exemplos comuns são: pendrives, HDs, CDs, disquetes, etc.
 
 #### Sistema binário
+
+Todo sistema númerico tem sua notação posicinal, ou seja, cada dígito tem um valor posicional diferente. No caso dos números binários tem base2 pois são somente dois digitos que comõem esse sistema númerico.
+
+##### Convverter números decimais em binários
+
+Para converter um número de decimal para binário basta que esse número seja dividido por dois e os restos e quocientes sejam organizados de trás para frente.
+
+Exemplo 1: 14 (base 10) = 1110 (base 2) -> 14/2=7/2=3/2= 0111 -> 1110.
+Exemplo 2: 110100 (base 2) = 52 (base 10) -> basta utilizar 2 como base e elevar cada bit a sua respectiva posição e depois utilizar novamentecada bit para multilicar por essas potências = 36 + 16 + 0 + 4 + 0 + 0 = 52.
+
+##### Diferença entre bit, bytes, megabits, megabytes e afins
 
 
 
@@ -101,7 +112,13 @@ Esse tipo de memória não tem acesso direto a CPU, mas em compensação tem a c
 
 [Memória](http://www.inf.ufsc.br/~j.barreto/cca/perifer/memorias.html)
 
+[Sistema de Numeração Binária](https://brasilescola.uol.com.br/matematica/sistema-numeracao-binaria.htm)
+
 [O que são bits, bytes, megabits, megabytes e afins?](https://www.infowester.com/bit.php)
+
+[O que é sistema hexadecimal?](https://canaltech.com.br/produtos/o-que-e-sistema-hexadecimal/)
+
+[Aritmetica Binaria](http://wiki.foz.ifpr.edu.br/wiki/index.php/Aritmetica_Binaria#Aritm.C3.A9tica_Bin.C3.A1ria.5B1.5D)
 
 ## Imagens
 
@@ -109,4 +126,4 @@ Esse tipo de memória não tem acesso direto a CPU, mas em compensação tem a c
 
 [Relação do processador com a memória](http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/aoc/ub/img/B1.jpg)
 
-
+[Números binários](https://etec-mecatronica.weebly.com/uploads/1/2/9/3/12933882/4072513_orig.jpg)
