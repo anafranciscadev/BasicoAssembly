@@ -2,7 +2,8 @@
 
 Todo sistema númerico tem sua notação posicinal, ou seja, cada dígito tem um valor posicional diferente. No caso dos números binários tem base2 pois são somente dois digitos que compõem esse sistema númerico.
 
-![Valor posicional binário](/imagens/ValordaPosiçãoBinária.jpg)
+![Valor posicional binário](/Introdução-AssemblyQuickGuide/imagens/ValordaPosiçãoBinária.jpg)
+[Link](https://etec-mecatronica.weebly.com/uploads/1/2/9/3/12933882/4072513_orig.jpg)
 
 ## Convverter números decimais em binários
 
@@ -11,8 +12,9 @@ Para converter um número de decimal para binário basta que esse número seja d
 
 # Diferença entre bit, bytes, megabits, megabytes e afins
 
-![Decimal, Binario e hexadecimal!](/imagens/DecimalBinarioHexadecimal.png)
-[Link da imagem](https://lh4.googleusercontent.com/xSZO9mpOS7gk6VjUXklM4WIYz7FwyAk0HvwtwSXiGyP__qHQuxthodh32bLpIthg8NoUPggiDceBMdw5ORZ_hHsDhBx_5q2Ld0vaCt9AO3ByUiEsTX6IMN4vxQozXkkVKWCHDpc=s0)
+![Tabela: decimal, binário e hexdecimal](/Introdução-AssemblyQuickGuide/imagens/DecimalBinarioHexadecimal.png)
+[Link](http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/aoc/ub/img/B1.jpg)
+
 
 # Referências
 

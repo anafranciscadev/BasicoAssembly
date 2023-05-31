@@ -8,8 +8,8 @@ O processador ou CPU é o componente que comanda tudo no computador, desde a ord
 
 3. **Registradores** fornece dados da memória para o processador, __mais detalhes abaixo__.
 
-![](/Introdução-AssemblyQuickGuide/imagens/DecimalBinarioHexadecimal.png)
-[Link](http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/aoc/ub/img/B1.jpg)
+![Relação entre processador e memória](/Introdução-AssemblyQuickGuide/imagens/relaçãoProcessadoreMemória.jpg)
+[Link](Acabei perdendo a referência)
 
 # Referências 
 
