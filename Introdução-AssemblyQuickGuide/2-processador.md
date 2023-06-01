@@ -11,7 +11,8 @@ O processador ou CPU é o componente que comanda tudo no computador, desde a ord
 ![Relação entre processador e memória](/Introdução-AssemblyQuickGuide/imagens/relaçãoProcessadoreMemória.jpg)
 [Link](Acabei perdendo a referência)
 
-# Referências 
+# Referências
 
 - [Arquitetura dos computadores](http://professores.dcc.ufla.br/~monserrat/icc/Capitulo2.html)
 - [Memória](http://www.inf.ufsc.br/~j.barreto/cca/perifer/memorias.html)
+- [Unidade central de processamento](https://pt.wikipedia.org/wiki/Unidade_central_de_processamento)

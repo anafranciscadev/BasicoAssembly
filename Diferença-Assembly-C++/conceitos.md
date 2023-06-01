@@ -22,6 +22,9 @@ saem da proposta do assembly e trazem os interpretadores e compiladores para ser
 
 Basicamente a diferença crucial entre a linguagem montada e as linguagens modernas seria que, com  assembly as instruções são traduzidas em linguagem de máquina (0s e 1s), sendo assim é necessário ter um bom conhecimento acerca do processador que se está utilizando, caso contrário, não será possível utilizar o programa se o processador não for potente o suficiente para interpretar as funções. Em linguagens como C++há um compilador que vem cheio de instruções predefinidas para faciliar para o programador e ainda assim possibilitar que o processador compile as instruções.
 
+![CeASM](Diferença-Assembly-C++/imagen/CeASM.jpg)
+[Link](https://images.app.goo.gl/3y6jPWqrrwUeKEcHA)
+
 # Referências
 
 - [Difereça entre Assembly e C++](https://www.trabalhosfeitos.com/ensaios/Diferen%C3%A7a-Entre-Assembly-e-c/43443241.html)
