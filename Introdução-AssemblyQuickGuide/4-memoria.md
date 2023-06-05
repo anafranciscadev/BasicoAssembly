@@ -28,3 +28,7 @@ Dentre as ROMs há vários tipos:
 ## Memória secundária
 
 Esse tipo de memória não tem acesso direto a CPU, mas em compensação tem a capacidade de armazenar grandes quantias de dados e de fazer a transferência segura desses dados. Exemplos comuns são: pendrives, HDs, CDs, disquetes, etc.
+
+# Referências
+
+[Memórias](http://www.inf.ufsc.br/~j.barreto/cca/perifer/memorias.html)
