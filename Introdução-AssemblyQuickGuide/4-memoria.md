@@ -25,6 +25,9 @@ Dentre as ROMs há vários tipos:
 
 É uma memória muito mais rápida que a RAM mas que é consideravelmente menor, sua função é armazenar temporariamente dados sem precisar buscar na memória pricipal.
 
+> [Dúvida] Qual a diferença entre memória cache e registrador? Os registradores são o tipo de memória utilizada para passar instruções ao processador diretamente, já a memória cache é uma técnica utilizada para melhorar o desempenho de um processador, que consiste em trazer os dados que estão sendo utilizados e que normalmente ficam na memória RAM, para mais perto do processador. Facilitando, assim, a conectividade dos registradores com os dados em memória, pois o processador tem em mãos todos os dados que precisa.
+[Link](https://cursos.alura.com.br/forum/topico-duvida-qual-a-diferenca-entre-memoria-cache-e-registrador-263249)
+
 ## Memória secundária
 
 Esse tipo de memória não tem acesso direto a CPU, mas em compensação tem a capacidade de armazenar grandes quantias de dados e de fazer a transferência segura desses dados. Exemplos comuns são: pendrives, HDs, CDs, disquetes, etc.

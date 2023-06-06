@@ -6,9 +6,9 @@ O processador ou CPU é o componente que comanda tudo no computador, desde a ord
 
 2. **ULA (Unidade Lógica Aritmética)**: todas as operações lógicas (and, or, not, etc) e aritméticas (subtração, adição, etc) são comandadas poresse compartimento;
 
-3. **Registradores**: fornece dados da memória para o processadord de forma muitoo veloz, __mais detalhes adiante__;
+3. **Registradores**: fornece dados da memória para o processador de forma muito veloz, __mais detalhes adiante__;
 
-4. **Clock**: seria a frequência com que o processador executa dados.
+4. **Clock**: seria a frequência com que o processador executa dados, quanto maior for o clock mais ágil é o processador.
 
 ![Relação entre processador e memória](/Introdução-AssemblyQuickGuide/imagens/relaçãoProcessadoreMemória.jpg)
 [Link](Acabei perdendo a referência)
